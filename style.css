@@ -1,0 +1,136 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(images/bg-intro-desktop.png);
+  background-color: #ff7979;
+  height: 100vh;
+}
+
+#h1-left {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: -0.520833px;
+}
+
+#p-left {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.blue-titr {
+  background: #5e54a4;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.267857px;
+}
+
+.top-titr-span {
+  font-weight: 400;
+}
+
+.form-shadow {
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+}
+
+.form-control {
+  padding: 15px 32px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  color: #3d3b48;
+}
+
+.form-control:focus {
+  border: 1px solid #5e54a4;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  border: 2px solid #ff7979;
+}
+
+.green-btn {
+  background: #38cc8b;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+
+.green-btn:hover {
+  background: #77e2b3;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+}
+
+#terms-p {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 26px;
+  text-align: center;
+  color: #bab7d4;
+}
+
+.link-red {
+  text-decoration: none;
+  color: #ff7979;
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*********************************media query*******/
+
+@media (max-width: 767px) {
+  body {
+    height: auto;
+  }
+
+  .container {
+    padding: 24px !important;
+  }
+
+  #h1-left {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.291667px;
+  }
+
+  #p-left {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    padding: 24px !important;
+  }
+
+  #h1-left {
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: -0.391667px;
+  }
+}
