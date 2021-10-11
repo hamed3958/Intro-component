@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Intro-component URL](https://your-live-site-url.com)
+- Live Site URL: [Intro-component URL](https://hamed3958.github.io/Intro-component/)
 
 ### Built with
 
