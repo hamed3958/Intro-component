@@ -61,6 +61,12 @@ body {
 .form-control.is-invalid,
 .was-validated .form-control:invalid {
   border: 2px solid #ff7979;
+  padding-right: calc(1.5 em + 0.75 rem);
+  background-image: url(images/icon-error.svg);
+}
+
+.invalid-feedback {
+  color:#FF7979;
 }
 
 .green-btn {
@@ -102,7 +108,7 @@ body {
 
 /*********************************media query*******/
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   body {
     height: auto;
   }
@@ -120,17 +126,5 @@ body {
 
   #p-left {
     text-align: center;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-  .container {
-    padding: 24px !important;
-  }
-
-  #h1-left {
-    font-size: 40px;
-    line-height: 46px;
-    letter-spacing: -0.391667px;
   }
 }
